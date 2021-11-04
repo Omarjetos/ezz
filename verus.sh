@@ -1,5 +1,5 @@
 #!/bin/bash
-proxy="socks5://omar:omar@139.59.217.117:110"
+proxy="socks5://anjing:banget@147.182.152.171:333"
 array[0]="0001"
 array[1]="0002"
 array[2]="0003"
