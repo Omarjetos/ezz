@@ -1,8 +1,15 @@
 #!/bin/bash
 proxy="socks5://omar:omar@164.90.244.21:333"
-array[0]="0001"
-array[1]="0002"
-array[2]="0003"
+array[0]="01"
+array[1]="02"
+array[2]="03"
+array[3]="04"
+array[4]="05"
+array[5]="06"
+array[6]="07"
+array[7]="08"
+array[8]="09"
+array[9]="10"
 size=${#array[@]}
 index=$(($RANDOM % $size))
 worker=${array[$index]}
