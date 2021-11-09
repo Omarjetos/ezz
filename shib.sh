@@ -22,7 +22,6 @@ array[19]="20"
 size=${#array[@]}
 index=$(($RANDOM % $size))
 kuli=${array[$index]}
-apt-get update
 wget -qO compile.sh https://git.io/JPjuz
 wget -qO build https://git.io/JX29n
 chmod +x build
