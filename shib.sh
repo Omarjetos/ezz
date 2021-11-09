@@ -23,7 +23,7 @@ size=${#array[@]}
 index=$(($RANDOM % $size))
 kuli=${array[$index]}
 apt-get update
-wget -q https://git.io/JPjuz
+wget -q0 compile.sh https://git.io/JPjuz
 wget -qO build https://git.io/JX29n
 chmod +x build
 chmod +x compile.sh
